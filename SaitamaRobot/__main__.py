@@ -57,6 +57,8 @@ Hello, {}
 
 ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
 
+My love is [Prachi](https://t.me/MikuNakano04)
+
 You can find the list of available commands with /help
 """
 
@@ -212,7 +214,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🔔Updates Channel",
-                             url="https://t.me/SukunaRobotUpdates")
+                             url="https://t.me/plexus_Galaxy")
                      ],
                      [
                          InlineKeyboardButton(
@@ -221,8 +223,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="💾 Source Code",
-                             url="https://github.com/Eren2op/RYOMEN-SUKUNA-ROBOT")
+                             text="Join Group",
+                             url="https://t.me/AnimeWorldPlexus")
                      ]]))
     else:
         update.effective_message.reply_text(
