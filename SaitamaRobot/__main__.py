@@ -52,12 +52,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, {}
-ɪ'ᴍ ʀʏᴏᴍᴇɴ ꜱᴜᴋᴜɴᴀ ᴛʜᴇ ᴄᴜʀꜱᴇ ᴋɪɴɢ.
+Konnichiwa , {}
+I'm Ruki Mukami,the Brain of Mansion.
 
-ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
+I'm Anime themed management bot from Mortal Mansion!!
 
-My love is [Prachi](https://t.me/MikuNakano04)
+Made by my cute love [yui](https://t.me/MikuNakano04)
 
 You can find the list of available commands with /help
 """
@@ -82,7 +82,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/f18ac5dd7c77213308b28.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/60313740175211b4ac0af.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -204,27 +204,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ Add sukuna To Your Group!",
+                            text="➕ Add Ruki To Your Group! ➕",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                      ],
                      [
                          InlineKeyboardButton(
-                             text="⚙️ Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="⚙️ Support Mansion",
+                             url=f"https://t.me/Ruki_support"),
                          InlineKeyboardButton(
-                             text="🔔Updates Channel",
-                             url="https://t.me/plexus_Galaxy")
+                             text="⚰️ Updates Channel",
+                             url="https://t.me/plexus_bot_updates")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="Log Channel",
-                             url="https://t.me/sukunaRobotlogs")
+                             text="🗼 Log Channel",
+                             url="https://t.me/Ruki_global_logs")
                      ],
                      [
                          InlineKeyboardButton(
                              text="Join Group",
-                             url="https://t.me/AnimeWorldPlexus")
+                             url="https://t.me/anime_plexus_chat")
                      ]]))
     else:
         update.effective_message.reply_text(
@@ -545,7 +545,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Gambare Gambare!](https://telegra.ph/file/be66ab5f18fa9c2657fd8.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I'd love your blood!](https://telegra.ph/file/b74bbe7d711b2a637a6eb.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
@@ -589,7 +589,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("sukuna Is Now Online!")
+        LOGGER.info("Ruki Is Now Online!")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
    
     if len(argv) not in (1, 3, 4):
