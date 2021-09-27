@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello, {}
-ɪ'ᴍ ʀʏᴏᴍᴇɴ ꜱᴜᴋᴜɴᴀ ᴛʜᴇ ᴄᴜʀꜱᴇ ᴋɪɴɢ.
+ɪ'ᴍ blah blah
 
 ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
 
