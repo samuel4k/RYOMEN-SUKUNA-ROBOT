@@ -191,7 +191,7 @@ PAT_STICKERS = (
     "CAACAgQAAxkBAALRXF9Xs6XmIeDbnoL1wiDky0TdX-CvAAKKAQAC1TMzC9A3CtiT2rqVGwQ")
 
 PING_STRING = (
-    "PONG!!",
+    "Mansion pong!!",
     "I am here!",
 )
 
@@ -293,7 +293,7 @@ EARS = [
 
 TOSS = (
     "Heads",
-    "Tails",
+    "Tails , so shall I taste your blood ",
 )
 
 DECIDE = ("Yes.", "No.", "Maybe.")
