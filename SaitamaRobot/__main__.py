@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello, {}
-ɪ'ᴍ blah blah
+ɪ'ᴍ Ryoumen Sukuna 
 
 ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
 
