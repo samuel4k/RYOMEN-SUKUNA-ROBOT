@@ -57,7 +57,7 @@ Hello, {}
 
 ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
 
-My love is [Prachi](https://t.me/MikuNakano04)
+I love my cute [Prachi](https://t.me/MikuNakano04)
 
 You can find the list of available commands with /help
 """
@@ -65,7 +65,7 @@ You can find the list of available commands with /help
 HELP_STRINGS = """
 
 
-Have a look at the following for an idea of some of the things I can help you with.
+⚜️ Have a look at the following for an idea of some of the things I can help you with.
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -85,8 +85,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/f18ac5dd7c77213308b28.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+well join @anime_plexus_chat and support us , have a great day :) ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -204,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ Add sukuna To Your Group!",
+                            text="➕ Add sukuna To Your Group!➕",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                      ],
@@ -213,18 +212,18 @@ def start(update: Update, context: CallbackContext):
                              text="⚙️ Support Group",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="🔔Updates Channel",
-                             url="https://t.me/plexus_Galaxy")
+                             text="📚 Sukuna updates 📚",
+                             url="https://t.me/plexus_bots_updates")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="Log Channel",
+                             text="🔗Logs Channel🔗",
                              url="https://t.me/sukunaRobotlogs")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="Join Group",
-                             url="https://t.me/AnimeWorldPlexus")
+                             text="�Join Group �",
+                             url="https://t.me/anime_plexus_chat")
                      ]]))
     else:
         update.effective_message.reply_text(
