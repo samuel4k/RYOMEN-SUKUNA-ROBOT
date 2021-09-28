@@ -2,12 +2,12 @@ import os
 import requests
 import aiohttp
 import youtube_dl
-import lyricsgenius
+
 
 from pyrogram import filters
 from SaitamaRobot import pbot
 from youtube_search import YoutubeSearch
-import lyricsgenius
+
 
 
 
@@ -56,7 +56,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: YouTube\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @KingSukuna_Bot '
+        rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: YouTube\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n�🎧 **By**: @RyoumenSukuna_Robot '
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -72,7 +72,6 @@ def song(client, message):
         os.remove(thumb_name)
     except Exception as e:
         print(e)
-
 
 
 @pbot.on_message(filters.command(["lyric", "lyrics"]))
