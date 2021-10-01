@@ -80,7 +80,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/f18ac5dd7c77213308b28.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/5376db3d76edafbb703df.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 well join @anime_plexus_chat and support us , have a great day :) ."""
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🔗Logs Channel🔗",
-                             url="https://t.me/sukunaRobotlogs")
+                             url="https://t.me/sukuna_logs")
                      ],
                      [
                          InlineKeyboardButton(
@@ -542,7 +542,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝙂𝙖𝙢𝙗𝙖𝙧𝙚 𝙂𝙖𝙢𝙗𝙖𝙧𝙚!](https://telegra.ph/file/be66ab5f18fa9c2657fd8.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝙂𝙖𝙢𝙗𝙖𝙧𝙚 𝙂𝙖𝙢𝙗𝙖𝙧𝙚!](https://telegra.ph/file/62308848904d760488ca8.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
