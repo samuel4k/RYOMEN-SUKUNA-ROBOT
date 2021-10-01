@@ -52,12 +52,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello, {}
-ɪ'ᴍ Ryoumen Sukuna 
-
-ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰʀᴏᴍ ᴊᴜᴊᴜᴛꜱᴜ ᴋᴀɪꜱᴇɴ!!
-
-I love my cute [Prachi](https://t.me/MikuNakano04)
+𝘏𝘦𝘭𝘭𝘰 {}
+𝐈'𝐦 𝐑𝐲𝐨𝐮𝐦𝐞𝐧 𝐒𝐮𝐤𝐮𝐧𝐚 !! 
+𝐈'𝐦 𝐚𝐧 𝐚𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐟𝐫𝐨𝐦 𝐉𝐮𝐣𝐮𝐬𝐭𝐮 𝐤𝐚𝐢𝐬𝐞𝐧 !! 
+𝐈 𝐥𝐨𝐯𝐞 𝐦𝐲 𝐜𝐮𝐭𝐞 [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
 
 You can find the list of available commands with /help
 """
@@ -222,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="�Join Group �",
+                             text="🗼Join Group🗼",
                              url="https://t.me/anime_plexus_chat")
                      ]]))
     else:
@@ -544,7 +542,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[Gambare Gambare!](https://telegra.ph/file/be66ab5f18fa9c2657fd8.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝙂𝙖𝙢𝙗𝙖𝙧𝙚 𝙂𝙖𝙢𝙗𝙖𝙧𝙚!](https://telegra.ph/file/be66ab5f18fa9c2657fd8.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
