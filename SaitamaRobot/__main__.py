@@ -52,10 +52,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝘏𝘦𝘭𝘭𝘰 {}
+ ƙơŋıƈɧıῳą {}
+
 𝐈'𝐦 𝐑𝐲𝐨𝐮𝐦𝐞𝐧 𝐒𝐮𝐤𝐮𝐧𝐚 !! 
+
 𝐈'𝐦 𝐚𝐧 𝐚𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐟𝐫𝐨𝐦 𝐉𝐮𝐣𝐮𝐬𝐭𝐮 𝐤𝐚𝐢𝐬𝐞𝐧 !! 
-𝐈 𝐥𝐨𝐯𝐞 𝐦𝐲 𝐜𝐮𝐭𝐞 [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
+
+Made by [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
 
 You can find the list of available commands with /help
 """
@@ -80,7 +83,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/5376db3d76edafbb703df.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/a903311052b0d87f143a4.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 well join @anime_plexus_chat and support us , have a great day :) ."""
