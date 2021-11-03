@@ -70,3 +70,4 @@ aiofiles
 uvloop
 python-dotenv
 heroku3
+coffeehouse==2.2.4
