@@ -4,7 +4,7 @@ import html
 from time import sleep, time
 
 import SaitamaRobot.modules.sql.chatbot_sql as sql
-from SaitamaRobot.api import API
+from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
 from SaitamaRobot import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
