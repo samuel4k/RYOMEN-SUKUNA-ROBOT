@@ -52,15 +52,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ƙơŋıƈɧıῳą {}
+❄️ ƙơŋıƈɧıῳą {}
 
 𝐈'𝐦 𝐑𝐲𝐨𝐮𝐦𝐞𝐧 𝐒𝐮𝐤𝐮𝐧𝐚 !! 
 
-𝐈'𝐦 𝐚𝐧 𝐚𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐟𝐫𝐨𝐦 𝐉𝐮𝐣𝐮𝐬𝐭𝐮 𝐤𝐚𝐢𝐬𝐞𝐧 !! 
+☃️ 𝐈'𝐦 𝐚𝐧 𝐚𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐟𝐫𝐨𝐦 𝐉𝐮𝐣𝐮𝐬𝐭𝐮 𝐤𝐚𝐢𝐬𝐞𝐧 !! 
 
-Made by [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
+🎗 Credits to [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
 
-You can find the list of available commands with /help
+🎄 You can find the list of available commands with /help
 """
 
 HELP_STRINGS = """
