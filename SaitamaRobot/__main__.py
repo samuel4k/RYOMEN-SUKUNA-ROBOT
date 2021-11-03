@@ -83,10 +83,9 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/a903311052b0d87f143a4.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/b76a99f275872cd54106b.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-well join @anime_plexus_chat and support us , have a great day :) ."""
+DONATE_STRING = """Heya, glad to hear you want to donate , Just join Plexus and support us , have a great day :) ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
