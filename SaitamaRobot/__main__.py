@@ -544,7 +544,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝙂𝙖𝙢𝙗𝙖𝙧𝙚 𝙂𝙖𝙢𝙗𝙖𝙧𝙚!](https://telegra.ph/file/62308848904d760488ca8.mp4)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[ 𝙂𝙖𝙢𝙗𝙖𝙧𝙚  𝙂𝙖𝙢𝙗𝙖𝙧𝙚 ! ](https://telegra.ph/file/76e0a2e28606abbc48961.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
