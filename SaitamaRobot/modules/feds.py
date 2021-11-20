@@ -433,15 +433,15 @@ def fed_info(update: Update, context: CallbackContext):
     chat = update.effective_chat
     info = sql.get_fed_info(fed_id)
 
-    text = "<b>ℹ️ Federation Information:</b>"
+    text = "<b>🔱 Federation Info :</b>"
     text += "\nFedID: <code>{}</code>".format(fed_id)
-    text += "\nName: {}".format(info['fname'])
-    text += "\nCreator: {}".format(mention_html(owner.id, owner_name))
-    text += "\nAll Admins: <code>{}</code>".format(TotalAdminFed)
+    text += "\n⚜️ Name: {}".format(info['fname'])
+    text += "\n👑 Creator: {}".format(mention_html(owner.id, owner_name))
+    text += "\n🎗 All Admins: <code>{}</code>".format(TotalAdminFed)
     getfban = sql.get_all_fban_users(fed_id)
-    text += "\nTotal banned users: <code>{}</code>".format(len(getfban))
+    text += "\n❗️ Total banned users: <code>{}</code>".format(len(getfban))
     getfchat = sql.all_fed_chats(fed_id)
-    text += "\nNumber of groups in this federation: <code>{}</code>".format(
+    text += "\n🔰 Number of groups in this federation: <code>{}</code>".format(
         len(getfchat))
 
     update.effective_message.reply_text(text, parse_mode=ParseMode.HTML)
