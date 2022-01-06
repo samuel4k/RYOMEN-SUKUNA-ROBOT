@@ -284,11 +284,12 @@ def ungban(update: Update, context: CallbackContext):
 
     log_message = (
         f"#UNGBANNED\n"
-        f"<b>Originated from:</b> <code>{chat_origin}</code>\n"
-        f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
-        f"<b>Unbanned User:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
-        f"<b>Unbanned User ID:</b> <code>{user_chat.id}</code>\n"
-        f"<b>Event Stamp:</b> <code>{current_time}</code>")
+        f"<b>⊸ ➢ Originated from:</b> <code>{chat_origin}</code>\n"
+        f"<b>♛ Admin:</b> {mention_html(user.id, user.first_name)}\n"
+        f"<b>⁭⁫⁪⁫⁬⁭⁫⁪⁫⁬➢Unbanned User:</b> {mention_html(user_chat.id, user_chat.first_name)}\n"
+        f"<b>⁭⁫⁪⁫⁬⁭⁫⁪⁫⁬➢Unbanned User ID:</b> <code>{user_chat.id}</code>\n"
+        f"<b>⁭⁫⁪⁫⁬⁭⁫⁪⁫⁬➢Event Stamp:<code>{current_time}</code>")
+        f"<b>┗━━━━━━•◦✿</b>)
 
     if EVENT_LOGS:
         try:
