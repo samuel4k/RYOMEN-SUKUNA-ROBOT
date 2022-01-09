@@ -52,15 +52,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-❄️ ƙơŋıƈɧıῳą {}
+𝑲𝒐𝒏𝒏𝒊𝒄𝒉𝒊𝒘𝒂 {}
 
-𝐈'𝐦 𝐑𝐲𝐨𝐮𝐦𝐞𝐧 𝐒𝐮𝐤𝐮𝐧𝐚 !! 
+ 𝑰'𝒎 𝑹𝒚𝒐𝒖𝒎𝒆𝒏 𝑺𝒖𝒌𝒖𝒏𝒂 !! 
 
-☃️ 𝐈'𝐦 𝐚𝐧 𝐚𝐧𝐢𝐦𝐞 𝐭𝐡𝐞𝐦𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐟𝐫𝐨𝐦 𝐉𝐮𝐣𝐮𝐬𝐭𝐮 𝐤𝐚𝐢𝐬𝐞𝐧 !! 
+ 𝑰'𝒎 𝒂𝒏 𝒂𝒏𝒊𝒎𝒆 𝒕𝒉𝒆𝒎𝒆𝒅 𝒎𝒂𝒏𝒂𝒈𝒆𝒎𝒆𝒏𝒕 𝒃𝒐𝒕 𝒇𝒓𝒐𝒎 𝒋𝒖𝒋𝒖𝒔𝒕𝒖 𝒌𝒂𝒊𝒔𝒆𝒏 𝒂𝒏𝒅 𝒎𝒂𝒏𝒂𝒈𝒆𝒅 𝒃𝒚 𝑷𝒍𝒆𝒙𝒖𝒔 𝑵𝒆𝒕𝒘𝒐𝒓𝒌 . 𝑨𝒅𝒅 𝒎𝒆 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑 𝒕𝒐 𝒔𝒉𝒐𝒘 𝒐𝒇𝒇 𝒎𝒚 𝒔𝒌𝒊𝒍𝒍𝒔 ! ....
 
-🎗 Credits to [𝐏𝐫𝐚𝐜𝐡𝐢](https://t.me/MikuNakano04)
+💕𝓜𝓪𝓭𝓮 𝓫𝔂 [𝓹𝓻𝓪𝓬𝓱𝓲](https://t.me/MikuNakano04)
 
-🎄 You can find the list of available commands with /help
+⛩ 𝒀𝒐𝒖 𝒄𝒂𝒏 𝒇𝒊𝒏𝒅 𝒕𝒉𝒆 𝒍𝒊𝒔𝒕 𝒐𝒇 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔 𝒘𝒊𝒕𝒉 /help
 """
 
 HELP_STRINGS = """
@@ -83,7 +83,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/b76a99f275872cd54106b.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/fc7a67c137b9245a53592.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate , Just join Plexus and support us , have a great day :) ."""
 
@@ -209,20 +209,20 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="⚙️ Support Group",
+                             text="「⚙️ Support Group ⚙️」",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="📚 Sukuna updates 📚",
+                             text="「Sukuna updates」",
                              url="https://t.me/plexus_bots_updates")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🔗Logs Channel🔗",
+                             text="「🔗Logs Channel🔗」",
                              url="https://t.me/sukuna_logs")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗼Join Group🗼",
+                             text="「🗼Join Group🗼」",
                              url="https://t.me/anime_plexus_chat")
                      ]]))
     else:
